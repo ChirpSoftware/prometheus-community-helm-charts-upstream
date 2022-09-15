@@ -19,7 +19,7 @@ jobs:
         with:
           target_github_token: ${{ secrets.ARCHITECT_BOT_GITHUB_REPO_SYNC_TOKEN }}
           target_repository: giantswarm/kube-state-metrics-app
-          target_path: helm/kube-state-metrics-app
+          target_path: helm/kube-state-metrics
           source_tag_wildcard: "kube-state-metrics-*"
           source_path: charts/kube-state-metrics
 
